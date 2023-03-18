@@ -32,7 +32,7 @@
     "@commander-js/extra-typings": "9.4.1",
     "@manypkg/find-root": "2.1.0",
     "@octokit/rest": "19.0.7",
-    "@react-email/render": "0.0.6",
+    "@react-email/render": "*",
     "chokidar": "3.5.3",
     "commander": "9.4.1",
     "detect-package-manager": "2.0.1",
@@ -48,10 +48,12 @@
   },
   "devDependencies": {
     "@types/fs-extra": "11.0.1",
+    "@types/glob": "^8.1.0",
     "@types/node": "18.11.9",
     "@types/normalize-path": "3.0.0",
     "@types/shelljs": "0.8.11",
     "prettier": "2.7.1",
-    "ts-node": "10.9.1"
+    "ts-node": "10.9.1",
+    "typescript": "^5.0.2"
   }
 }

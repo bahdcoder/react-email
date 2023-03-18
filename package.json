@@ -1,0 +1,24 @@
+{
+  "name": "@react-email/workspace",
+  "private": true,
+  "scripts": {
+    "docs": "nx dev @react-email/docs"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "email"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resendlabs/react-email.git",
+    "directory": "packages/react-email"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "nx": "^15.8.7"
+  }
+}

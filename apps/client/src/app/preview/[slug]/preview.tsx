@@ -1,10 +1,13 @@
 'use client';
 
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import React from 'react';
+
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { CodeContainer } from '../../../components/code-container';
 import { Shell } from '../../../components/shell';
 import { Tooltip } from '../../../components/tooltip';
+
+import {} from '@react-email/render';
 
 export default function Preview({
   navItems,
